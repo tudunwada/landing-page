@@ -1,0 +1,105 @@
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    
+}
+
+li{
+    display: inline-block;
+    margin: 0 25px;
+    
+}
+
+.header .head .menu{
+    border: 2px solid;
+    margin-left: 510px;
+    font-size: 18px;
+}
+.header{
+    background: #1f2937;
+    padding-left: 15%;
+    width: auto%;
+    height: 525px;
+    color: #f9faf8;
+}
+
+.header .con .hi{
+    width: 760px;
+    height: 250px;
+    margin-right: 10%;
+    margin-top: 40px;
+    border-radius: 4%;
+    
+}
+
+.header .con p{
+    font-size: 18px;
+}
+
+.header .head{
+    display: flex;
+    margin-bottom: 50px;
+    border: 2px solid;
+    margin-right: 10%;
+    
+}
+
+.header .con{
+    display: flex;
+    gap: 20px;
+}
+ h1{
+    font-size: 48px;
+    font-weight: bolder;
+ }
+
+.main{
+    display: flex;
+    height: 500px;
+    padding: 16px;
+    background: white;
+    justify-content: center;
+    gap: 4%;
+}
+
+.main .img{
+    width: 160px;
+    height: 160px;
+    border: 4px solid darkslategray;
+    align-self: center;
+    border-radius: 15px;
+}
+
+.quote{
+    background: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 80px 250px 80px 250px;
+}
+
+.sign .in{
+    background: #3882f6;
+    margin: 100px 100px 100px 200px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 12px;
+    display: flex;
+    
+}
+
+.sign .in button{
+    font-size: 20px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 5px 20px 5px 20px;
+    
+}
+
+.footer{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    background: #1f2937;
+    color: #E5E7EB;
+}
